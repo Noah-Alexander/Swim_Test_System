@@ -1,1 +1,1 @@
-Hello world, I am new to git and github
+Hey man, this is my project for the Palestine YMCA pool
