@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {     
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    position: fixed;
+    z-index: 5;
+}
+
+header h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman', cursive;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: lightblue;
+    position: relative;
+    display: block;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding: 10px 30px 10px 30px;
+}
+
+nav ul li:hover {
+    background-color: lightgray;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+body h2 {
+    text-align: center;
+}
+
+.box {
+    height: 500px;
+    max-width: 900px;
+    width: 26%;
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.A {
+    margin: 150px 0px 130px 5%;
+}
+
+.B {
+    margin: 150px 0px 130px 5%;
+}
+
+.C {
+    margin: 150px 0px 130px 5%;
+}
+
+.Aimg {
+    height: 80%;
+    background-image: url("Aimg.SwimTestSystem.png");
+    background-size: cover;
+    background-position: center;
+    opacity: .4;
+}
+
+.Bimg {
+    height: 80%;
+    background-image: url("Bimg.SwimTestSystem.png");
+    background-size: cover;
+    background-position: center;
+    opacity: .4;
+}
+
+.Cimg {
+    height: 80%;
+    background-image: url("Cimg.SwimTestSystem.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: .4;
+}
+
+.boxTitle {
+    color: black;
+    font-size: 24px;
+    padding: 7% 5px 10px 5px;
+    text-align: center;
+}
+
+footer {
+    height: 90px;
+    background-color: lightseagreen;
+    position: relative;
+    bottom: 0;
+}
+
+footer h3 {
+    padding: 30px 0px 0px 36px;
+}
